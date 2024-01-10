@@ -3,7 +3,7 @@
 // const id=4545;
 
 // account=5656;
-let accountname=343434343n
+// let accountname=343434343n
 // let balance=33.454
 // balance=99
 // balance=true
@@ -71,4 +71,43 @@ let accountname=343434343n
 
 // console.log(Math.floor(Math.random()*100+1));
 
+// let str = new String("kavan-kumar-giri")
+// console.log(str.slice(2,4))
+// console.log(str.trim());
+// console.log(str.toUpperCase());
+// console.log(str.toLocaleUpperCase());
+// console.log(str.substring(0,5));
+
+// console.log(str.split('-'));
+
+
+// let num = Number(442323);
+// let ct = num.toString();
+// console.log(typeof ct ,ct);
+// console.log(num.toPrecision(4));
+
+// let name="karan"
+// let age=34
+
+// console.log(`my name is ${name} and my age is ${age}`);
+
+// let one = Symbol('123');
+// let another = Symbol('123');
+
+// console.log(typeof one,one);
+// console.log(typeof another,another);
+// console.log(one===another);
+
+
+// Date
+// let d = new Date();
+
+// let timestamp = Date.now()
+
+// console.log(d.toLocaleString());
+// console.log(d.toLocaleTimeString());
+// console.log(d.toLocaleDateString());
+// console.log(d.getDate());
+// console.log(d.getDay());
+// console.log(timestamp);
 
