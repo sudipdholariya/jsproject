@@ -109,5 +109,64 @@
 // console.log(d.toLocaleDateString());
 // console.log(d.getDate());
 // console.log(d.getDay());
-console.log(timestamp);
+// console.log(timestamp);
 
+
+// console.log(Math.floor(Math.random()*(30-20))+20)
+
+// if(confirm("are you comning")){
+//     console.log('good morning');
+// }else{
+//     console.log('good evening');
+// }
+
+// let a,b;
+// a= prompt("Enter value for a");
+// b=prompt("Enter value for b");
+// console.log(a+b);
+
+
+let numbers = [22,33,4,5,66,2]
+let num = new Array(4,5,6,7,11)
+
+
+console.log(num);
+// console.log(numbers);
+
+// numbers.push(3)
+// numbers.pop();
+// numbers.unshift(44)
+// numbers.shift()
+
+// numbers.indexOf(4)
+
+// console.log(numbers.indexOf(4));
+// let atr=numbers.join()
+// let number1=[44,5,[6,44],23,35,323,[232,565,[454,565],999]]
+
+// console.log(number1.includes(5))
+// console.log(number1.concat(number2))
+// console.log(number1.length)
+
+// console.log(number1.slice(1,3))
+// console.log(number1.splice(1,2))
+
+
+// console.log(number1.flat(2));
+// let nu="karan"
+// let num1 = Array.from("creative");
+// num1= Array.isArray(nu)
+// let nu=number2.toString()
+// let n1="karan";
+// let n2="ram";
+// let n3="shyam";    
+// // console.log(Array.of(n1,n2,n3))
+// let number2=[88,54,2,7,2]
+// let number3=[9,67,34]
+// // let nm =[...number2,...number3]
+// let nm = number2.concat(number3)
+// console.log(nm);
+
+// console.log(typeof nu,nu)
+
+// console.log(num1);
