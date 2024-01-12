@@ -126,12 +126,13 @@
 // console.log(a+b);
 
 
-let numbers = [22,33,4,5,66,2]
-let num = new Array(4,5,6,7,11)
+// let number1 = [22,33,4,5,66,2]
+// let number2 = [6,7,11]
 
-
-console.log(num);
-// console.log(numbers);
+// let number3 = [number1,number2] 
+// let allnum = [...number1,...number2];
+// console.log(allnum);
+// // console.log(numbers);
 
 // numbers.push(3)
 // numbers.pop();
@@ -170,3 +171,71 @@ console.log(num);
 // console.log(typeof nu,nu)
 
 // console.log(num1);
+
+
+
+// Object literal
+
+let key1 = Symbol("ky")
+
+let ob1 = {
+        name:"creative",
+        branch:"utran",
+        pincode:364500,
+        isstrat:false,
+        "full addres":"utran juction ",
+        address:{
+            city:"surat"
+        }   ,
+        holidays:["monday,saturday"],
+        [key1]:"erere"
+}
+
+
+
+
+// Object.freeze(ob1);
+// ob1.email="creative@gamil.com"
+console.log(ob1);
+// console.log(ob1["full addres"]);
+// console.log(ob1["branch"]);
+// console.log(ob1.pincode);
+
+let ob2 = {
+    a:22,
+    b:56
+}
+
+// let ob3 = {ob1,ob2}
+// let ob3 =  Object.assign({},ob1,ob2)
+// let ob4 = {...ob1,...ob2}
+
+// de-structering
+// let {name:nm,branch} = ob1
+
+// console.log(Object.keys(ob1))
+// console.log(Object.values(ob1));
+// console.log(Object.entries(ob1));
+// console.log(nm,branch);
+
+// console.log(ob1.holidays[0]);
+// let ob3  = new Object();
+// ob3.name="yogi"
+// ob3.temp=56
+// console.log(ob3);
+
+
+// let obn = [
+//     {
+
+//     },
+//     {
+
+//     },
+//     {
+
+//     }
+// ]
+
+
+
