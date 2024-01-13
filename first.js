@@ -176,35 +176,35 @@
 
 // Object literal
 
-let key1 = Symbol("ky")
+// let key1 = Symbol("ky")
 
-let ob1 = {
-        name:"creative",
-        branch:"utran",
-        pincode:364500,
-        isstrat:false,
-        "full addres":"utran juction ",
-        address:{
-            city:"surat"
-        }   ,
-        holidays:["monday,saturday"],
-        [key1]:"erere"
-}
+// let ob1 = {
+//         name:"creative",
+//         branch:"utran",
+//         pincode:364500,
+//         isstrat:false,
+//         "full addres":"utran juction ",
+//         address:{
+//             city:"surat"
+//         }   ,
+//         holidays:["monday,saturday"],
+//         [key1]:"erere"
+// }
 
 
 
 
 // Object.freeze(ob1);
 // ob1.email="creative@gamil.com"
-console.log(ob1);
+// console.log(ob1);
 // console.log(ob1["full addres"]);
 // console.log(ob1["branch"]);
 // console.log(ob1.pincode);
 
-let ob2 = {
-    a:22,
-    b:56
-}
+// let ob2 = {
+//     a:22,
+//     b:56
+// }
 
 // let ob3 = {ob1,ob2}
 // let ob3 =  Object.assign({},ob1,ob2)
@@ -236,6 +236,136 @@ let ob2 = {
 
 //     }
 // ]
+
+
+
+// Array , Object, Function
+
+
+
+function printnname() {
+    console.log('print number function is call');
+    console.log('second statement');
+}
+
+
+// printnname();
+
+function addtonumbers(num1,num2) {
+ 
+    console.log(num1+num2);
+
+}
+// addtonumbers(22,33)
+
+function addtwo(num1,num2){
+    return num1+num2
+}
+
+// console.log(addtwo(2,3))
+
+function islogin(name="karan"){
+ if(!name){
+    console.log('you are not log in');
+    return
+ }
+ 
+ return `${name} is log in`
+}
+
+// console.log(islogin(""))
+
+
+function addtocart(...num){
+    // console.log(num);
+    return num
+}
+
+// console.log(addtocart(11,22,33,44))
+
+
+
+
+function objectpass(user){
+        console.log(user);
+
+        console.log(`My name is ${user.name} and age is ${user.age}`);
+}
+
+// // objectpass(user)
+
+let numbers = ["banana","apple","mango"]
+
+function arrasargu(numbers){
+    console.log(numbers);
+}
+
+// arrasargu(numbers)
+
+
+// Function as expression
+
+let addton = function(n1,n2){
+    console.log(n1+n2);
+}
+
+// addton(2,4)
+// console.log(addton);
+
+
+
+const user = {
+    name:"karan",
+    age:22,
+    greeting:function(){
+        console.log(`wel come to home ${this.name}`);
+    }
+}
+
+// user.greeting()
+
+
+//   function and expression function
+
+
+// artih()
+
+
+function artih(){
+    console.log('function arith call');
+}
+
+let add = function(){
+    console.log('add with expression call');
+}
+
+// add()
+// IIFE
+// ;(function sub(){
+//     console.log('sub call');
+// })()
+
+
+
+//  arrw function
+
+let adda = ()=>{
+    return `adda is calling`
+}
+let aadb = (num1,num2)=>  (console.log(num1+num2))
+
+// console.log(adda());
+// aadb(2,3)
+
+
+// iife with arraw function
+;((name)=> (console.log(name)))
+('karan');
+
+
+
+
+
 
 
 
