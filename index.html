@@ -3,12 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-   
+    <title>Dom</title>
 </head>
 <body>
-    
+
+    <div class="parent">
+        <!-- this is a comment -->
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
 </body>
 
+<script>
+  
+    // heading.innerHTML="ram ram"
+    
+    // heading.textContent="ram jai ram"
+
+    // document.getElementById("heading").textContent="jai shree ram";
+
+            //    let heading= document.getElementsByClassName('heading');
+        
+        // let heading=document.querySelector('.heading');
+        //     heading.textContent="dasdas"
+
+        // //         console.log(heading);
+        const parent = document.querySelector('.parent')
+        // console.log(parent);
+        // console.log(parent.children);
+        // console.log(parent.children[0].innerHTML);
+
+//         for(i=0;i<parent.children.length;i++){
+//         console.log(parent.children[i].innerHTML);
+        
+//         }
+//         parent.children[1].style.color = "orange"
+
+// console.log(parent.firstElementChild);
+// console.log(parent.lastElementChild);
+
+const dayone = document.querySelector('.day');
+
+console.log(dayone.parentElement);
+console.log(dayone.nextElementSibling);
+console.log(parent.childNodes);
+</script>
 </html>

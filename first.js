@@ -243,84 +243,84 @@
 
 
 
-function printnname() {
-    console.log('print number function is call');
-    console.log('second statement');
-}
+// function printnname() {
+//     console.log('print number function is call');
+//     console.log('second statement');
+// }
 
 
 // printnname();
 
-function addtonumbers(num1,num2) {
+// function addtonumbers(num1,num2) {
  
-    console.log(num1+num2);
+//     console.log(num1+num2);
 
-}
-// addtonumbers(22,33)
+// }
+// // addtonumbers(22,33)
 
-function addtwo(num1,num2){
-    return num1+num2
-}
+// function addtwo(num1,num2){
+//     return num1+num2
+// }
 
-// console.log(addtwo(2,3))
+// // console.log(addtwo(2,3))
 
-function islogin(name="karan"){
- if(!name){
-    console.log('you are not log in');
-    return
- }
+// function islogin(name="karan"){
+//  if(!name){
+//     console.log('you are not log in');
+//     return
+//  }
  
- return `${name} is log in`
-}
+//  return `${name} is log in`
+// }
 
 // console.log(islogin(""))
 
 
-function addtocart(...num){
-    // console.log(num);
-    return num
-}
+// function addtocart(...num){
+//     // console.log(num);
+//     return num
+// }
 
 // console.log(addtocart(11,22,33,44))
 
 
 
 
-function objectpass(user){
-        console.log(user);
+// function objectpass(user){
+//         console.log(user);
 
-        console.log(`My name is ${user.name} and age is ${user.age}`);
-}
+//         console.log(`My name is ${user.name} and age is ${user.age}`);
+// }
 
 // // objectpass(user)
 
-let numbers = ["banana","apple","mango"]
+// let numbers = ["banana","apple","mango"]
 
-function arrasargu(numbers){
-    console.log(numbers);
-}
+// function arrasargu(numbers){
+//     console.log(numbers);
+// }
 
 // arrasargu(numbers)
 
 
 // Function as expression
 
-let addton = function(n1,n2){
-    console.log(n1+n2);
-}
+// let addton = function(n1,n2){
+//     console.log(n1+n2);
+// }
 
 // addton(2,4)
 // console.log(addton);
 
 
 
-const user = {
-    name:"karan",
-    age:22,
-    greeting:function(){
-        console.log(`wel come to home ${this.name}`);
-    }
-}
+// const user = {
+//     name:"karan",
+//     age:22,
+//     greeting:function(){
+//         console.log(`wel come to home ${this.name}`);
+//     }
+// }
 
 // user.greeting()
 
@@ -331,13 +331,13 @@ const user = {
 // artih()
 
 
-function artih(){
-    console.log('function arith call');
-}
+// function artih(){
+//     console.log('function arith call');
+// }
 
-let add = function(){
-    console.log('add with expression call');
-}
+// let add = function(){
+//     console.log('add with expression call');
+// }
 
 // add()
 // IIFE
@@ -349,18 +349,18 @@ let add = function(){
 
 //  arrw function
 
-let adda = ()=>{
-    return `adda is calling`
-}
-let aadb = (num1,num2)=>  (console.log(num1+num2))
+// let adda = ()=>{
+//     return `adda is calling`
+// }
+// let aadb = (num1,num2)=>  (console.log(num1+num2))
 
 // console.log(adda());
 // aadb(2,3)
 
 
 // iife with arraw function
-;((name)=> (console.log(name)))
-('karan');
+// ;((name)=> (console.log(name)))
+// ('karan');
 
 
 
